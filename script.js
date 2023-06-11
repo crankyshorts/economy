@@ -10,7 +10,7 @@ function getUpdates() {
 
 function updatePage() {
   // Clear the `updates` div.
-  document.getElementById("updates").innerHTML = "";
+  document.getElementById("updates").innerHTML = "https://www.nyt.com";
 
   // Add each update to the `updates` div.
   for (var i = 0; i < updates.length; i++) {
